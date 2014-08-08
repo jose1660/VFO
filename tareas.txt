@@ -1,0 +1,8 @@
+TAREAS
+------
+Crear bash linux que haga lo siguiente:
+- Reconocer que Servidor web esta usando: empezaremos con APACHE.
+- Reconocer ruta de los log de accesos del aplicativo web al que se crearan las reglas varnish.(Ruta donde se almacenan todas rutas visitadas al sitio web)
+- Reconocer urls visitadas al sitio para el "Modo aprendizaje", en un periodo de tiempo. Habra la opcion de iniciar y detener.
+- Almacenar las rutas en un archivo temporal y general un patron de visitas en base a las rutas capturadas para luego poder crear la regla final que usara Varnish (Archivo VCL).
+- Lograr que varnish solo permita la visita de las rutas que hemos generado.
